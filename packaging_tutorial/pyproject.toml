@@ -1,0 +1,19 @@
+[project]
+name = "example_package_Higgs"
+version = "0.0.3"
+authors = [
+  { name="Andrew Higgins", email="ahiggin9@emich.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/COSC381-2025Winter/lab13-sprint-full-stack-slop-llc"
+Issues = "https://github.com/COSC381-2025Winter/lab13-sprint-full-stack-slop-llc/issues"
