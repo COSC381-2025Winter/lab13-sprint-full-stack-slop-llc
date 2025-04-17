@@ -1,5 +1,5 @@
 [project]
-name = "example_package_Higgs"
+name = "calendar_app_package"
 version = "0.0.3"
 authors = [
   { name="Andrew Higgins", email="ahiggin9@emich.edu" },
