@@ -1,8 +1,8 @@
-# Virtualenvs
+# Python virtual environments
 .venv/
 venv/
 
-# Python artefacts
+# Python cache & compiled files
 __pycache__/
 *.py[cod]
 *.pyo
@@ -10,13 +10,22 @@ __pycache__/
 dist/
 build/
 
-# Testing
+# Pytest cache
 .pytest_cache/
 
-# IDEs
+# IDE/editor settings
 .vscode/
 .idea/
 
-# OS
+# OS metadata files
 .DS_Store
 Thumbs.db
+
+# Google OAuth credentials
+client_secret.json
+credentials.json
+token.json
+token.pkl
+
+# Logs and local output
+*.log
