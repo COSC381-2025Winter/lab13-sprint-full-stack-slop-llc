@@ -1,0 +1,6 @@
+
+# Ignore secrets
+temp_credentials.json
+token.pkl
+credentials.json
+client_secret.json
