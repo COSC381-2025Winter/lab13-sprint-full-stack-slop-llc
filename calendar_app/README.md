@@ -6,5 +6,5 @@
 
 
 # To run tests:
-# source venv/bin/activate
+# source .venv/bin/activate
 # PYTHONPATH=calendar_app/src ~/.local/bin/pytest calendar_app/tests/test_main.py
