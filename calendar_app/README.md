@@ -11,7 +11,9 @@
 
 # To run main:
 
-# Activate Environment 
+# Set up Environment:
+python3 -m venv venv
+# Activate Environment: 
 source venv/bin/activate
 # Install google-auth-oauthlib
 # While your virtual environment is still active ((venv) is visible), run:
