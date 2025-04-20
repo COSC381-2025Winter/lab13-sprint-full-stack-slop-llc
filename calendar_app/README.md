@@ -8,7 +8,6 @@ pip install -e .
 # Then run the app using the installed CLI command
 calendar-app
 
-
 # Option 2: Run without installing
 # From project root
 cd calendar_app
