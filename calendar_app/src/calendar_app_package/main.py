@@ -66,5 +66,6 @@ def main():
         else:
             print("Invalid choice. Please enter 1, 2, or 3.")
 
-if __name__ == '__main__':
+# ignore covering the main because it will ALWAYS want to open a webpage I cant mock
+if __name__ == '__main__':  # pragma: no cover
     main()
