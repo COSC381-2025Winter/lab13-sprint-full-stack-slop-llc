@@ -1,6 +1,7 @@
 # Python virtual environments
 .venv/
 venv/
+venv
 
 # Python cache & compiled files
 __pycache__/
@@ -29,3 +30,9 @@ token.pkl
 
 # Logs and local output
 *.log
+
+# Ignore secrets
+temp_credentials.json
+token.pkl
+credentials.json
+client_secret.json
