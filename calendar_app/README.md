@@ -27,6 +27,9 @@ pip install --break-system-packages google-api-python-client
 PYTHONPATH=src python3 -m calendar_app_package.main
 
 
+# there may be an error that gives a VS code connection error, and not let you log in with google after youve selected youre account
+# if that happens, reload and repeat steps
+
 ### Testing
 # do the steps up until youre going to run the program, but instead run
 python3 -m pytest --cov=calendar_app_package
