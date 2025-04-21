@@ -2,7 +2,6 @@
 
 # A Python-based command-line tool that allows users to manage personal tasks and automatically schedule them on their Google Calendar. Built using Agile practices, GitHub Flow, and full test coverage.
 
-
 ## Features:
 # Add a task (title, description, start time, end time)
 # View task list stored in memory
