@@ -14,7 +14,7 @@ Built using **Agile practices**, **GitHub Flow**, and with **full test coverage*
 
 ---
 
-## 📦 Install from Test PyPI
+## 📦 Install from Test PyPI (Deployment Process)
 
 > ✅ No need to clone the repository — this tool is deployed on Test PyPI and installable directly!
 
