@@ -35,16 +35,10 @@ source venv/bin/activate
 While your virtual environment is still active (`(venv)` should be visible), run:
 
 ```bash
-python3 -m pip install --index-url https://test.pypi.org/simple/ example-package-Higgs
-```
-
-Then resolve dependencies from the main by running:
-
-```bash
 python3 -m pip install \
   --index-url https://test.pypi.org/simple/ \
   --extra-index-url https://pypi.org/simple \
-  example-package-Higgs
+  example-package-Higgs-demo-13
 ```
 Finally, to run the program, just run:
 
@@ -114,3 +108,36 @@ This will display **100% test coverage**.
 
 
 Final look of readme was refined with chat gpt, but all steps and instructions were made by us
+
+## 📤 Deployment Notes
+
+This project was successfully packaged and uploaded to Test PyPI for demo access.
+
+## 📤 Deployment Steps Followed
+
+Configured pyproject.toml with:
+- Project metadata
+- Package name: example-package-Higgs-demo-13
+- Entry point: calendar-app
+
+Built the distribution
+
+```bash
+rm -rf dist/ build/ *.egg-info
+python3 -m build
+```
+
+Uploaded to Test PyPI:
+
+```bash
+python3 -m twine upload --repository testpypi dist/
+```
+
+### ✅ Final Result ###
+https://pypi.org/project/example-package-Higgs-demo-13/0.1.0/
+
+You can now run the app from any environment using:
+
+```bash
+calendar-app
+```
