@@ -18,11 +18,27 @@ Built using **Agile practices**, **GitHub Flow**, and with **full test coverage*
 
 > ✅ No need to clone the repository — this tool is deployed on Test PyPI and installable directly!
 
+### 🛠️ Set Up Environment
+
+```bash
+python3 -m venv venv
+```
+
+### ▶️ Activate Environment
+
+```bash
+source venv/bin/activate
+```
+
+### 📦 Install Dependencies
+
+While your virtual environment is still active (`(venv)` should be visible), run:
+
 ```bash
 python3 -m pip install --index-url https://test.pypi.org/simple/ example-package-Higgs
 ```
 
-If dependencies fail to resolve, use:
+Then resolve dependencies from the main by running:
 
 ```bash
 python3 -m pip install \
@@ -30,6 +46,12 @@ python3 -m pip install \
   --extra-index-url https://pypi.org/simple \
   example-package-Higgs
 ```
+Finally, to run the program, just run:
+
+```bash
+calendar-app
+```
+
 
 ---
 
