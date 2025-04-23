@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name            = "calendar_app_package"
+name            = "calendar_app_package_demo_13"
 version         = "0.1.0"
 description     = "Google‑Calendar powered CLI task scheduler"
 readme          = "README.md"
