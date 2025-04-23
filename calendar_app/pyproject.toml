@@ -42,7 +42,7 @@ dev = [
 
 
 [project.scripts]
-calendar-app = "calendar_app_package.main:app"
+calendar-app = "calendar_app_package.main:main"
 
 
 [project.urls]
