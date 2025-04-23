@@ -14,7 +14,26 @@ Built using **Agile practices**, **GitHub Flow**, and with **full test coverage*
 
 ---
 
-## ⚙️ How to Run the Program
+## 📦 Install from Test PyPI
+
+> ✅ No need to clone the repository — this tool is deployed on Test PyPI and installable directly!
+
+```bash
+python3 -m pip install --index-url https://test.pypi.org/simple/ example-package-Higgs
+```
+
+If dependencies fail to resolve, use:
+
+```bash
+python3 -m pip install \
+  --index-url https://test.pypi.org/simple/ \
+  --extra-index-url https://pypi.org/simple \
+  example-package-Higgs
+```
+
+---
+
+## ⚙️ How to Run the Program From Source
 
 From the root of the project:
 
@@ -48,7 +67,7 @@ pip install --break-system-packages google-api-python-client
 
 ---
 
-## ▶️ Run the Program
+## ▶️ Run the Program (locally)
 
 After installing dependencies, run the following command:
 
