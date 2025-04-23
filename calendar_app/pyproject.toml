@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name            = "example-package-Higgs"
+name            = "example-package-Higgs-demo-13"
 version         = "0.1.0"
 description     = "Google‑Calendar powered CLI task scheduler"
 readme          = "README.md"
