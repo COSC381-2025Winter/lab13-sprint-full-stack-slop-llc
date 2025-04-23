@@ -5,6 +5,50 @@ Built using **Agile practices**, **GitHub Flow**, and with **full test coverage*
 
 ---
 
+## How it was built and deployed
+
+
+- Navigate to the root
+```bash
+cd calendar_app
+```
+
+- Build a VE with
+```bash
+python3 -m venv venv
+```
+
+- Activate the VE
+```bash
+source venv/bin/activate
+```
+
+
+- Install build if not already installed
+```bash
+pip install build
+```
+
+- Build the project
+```bash
+python3 -m build
+```
+- Wait
+
+# To deploy it to the website, do the following
+
+- install twine
+```bash
+pip install twine
+```
+- Upload it to the site
+```bash
+python3 -m twine upload --repository testpypi dist/*
+```
+
+- It will ask for a token (not shared, if it needs to be shared, tell us though)
+- Wait
+
 ## 🚀 Features
 
 - ✅ Add a task (title, description, start time, end time)  
