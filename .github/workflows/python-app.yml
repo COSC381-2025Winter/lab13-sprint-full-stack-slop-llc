@@ -27,4 +27,4 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        pytest --cov
+        PYTHONPATH=calendar_app/src pytest --cov=calendar_app_package tests
