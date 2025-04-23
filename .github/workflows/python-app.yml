@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-        
+
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
@@ -21,11 +21,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd calendar_app
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r calendar_app/requirements.txt
         pip install pytest pytest-cov
 
     - name: Run tests with coverage
       run: |
-        PYTHONPATH=src pytest --cov=calendar_app_package ../tests
+        PYTHONPATH=calendar_app/src pytest --cov=calendar_app_package calendar_app/tests
