@@ -9,9 +9,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: calendar_app  
         
     steps:
     - name: Checkout repo
@@ -24,6 +21,7 @@ jobs:
 
     - name: Install dependencies
       run: |
+        cd calendar_app
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install pytest pytest-cov
